@@ -1,0 +1,11 @@
+framework module Frime {
+  umbrella header "Frime.h"
+
+  export *
+  module * { export * }
+}
+
+module Frime.Swift {
+    header "Frime-Swift.h"
+    requires objc
+}
